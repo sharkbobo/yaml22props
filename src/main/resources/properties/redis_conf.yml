@@ -1,0 +1,18 @@
+dev:
+  direct_host: james.redis.direct.ip
+  direct_jmxNamePrefix: jedisPoolConfig4Direct
+  direct_maxIdle: 1
+  direct_maxTotal: 2
+  direct_maxWaitMillis: 1000
+  direct_minEvictableIdleTimeMillis: 100000000
+  direct_numTestsPerEvictionRun: 3
+  direct_port: 6379
+  direct_testOnBorrow: false
+  direct_testWhileIdle: true
+  direct_timeBetweenEvictionRunsMillis: 100000001
+  direct_timeout: 1000
+  spring:
+      application:
+          admin:
+              enabled: false
+          name: MyProject
